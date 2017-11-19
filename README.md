@@ -1,4 +1,4 @@
-# CarND-Controls-PID
+# CarND-PID-Control
 This is a Self-Driving Car Engineer Nanodegree Program completed by Michael chen.This program implements a PID controllor for controling a vehichle.
 
 ## Build and Run
@@ -6,7 +6,7 @@ This is a Self-Driving Car Engineer Nanodegree Program completed by Michael chen
 2. implement below order step by step.  
 >  mkdir build && cd build  
 >  cmake .. && make  
-> ./pid`.   
+>  ./pid   
 3. open the Term 2 Simulator which can be downloaded [here](https://github.com/udacity/self-driving-car-sim/releases).and Select "the Project 4:PID controllor".
 
 ## Reflection
@@ -15,7 +15,7 @@ kd is the coefficient of differential term of PID algorithm.It can avoid an over
 Ki is the coefficient of integral term of PID algorithm.If there is a bias.then the integral part can play an key role.In our task(lake race track),the robot has no bias,the Ki is set to be 0.
 
 ## Final hyperparameters
-I tune the hpyerparameter manually.When Kp is 0.2,kd is set to be 5.0,and ki is set to be 0.0,it can reach a good performance.  
+I tune the hyperparameter manually.When Kp is 0.2,kd is set to be 5.0,and ki is set to be 0.0,it can reach a good performance.  
 
 
 ## Dependencies
